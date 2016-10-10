@@ -8,6 +8,10 @@
 	<script type="text/javascript" src="js/offcanvas.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/stilim.css" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
 	<script type="text/javascript">
 
 		function kaydetLan(){
@@ -21,6 +25,18 @@
 				data:degerler, 
 				success:function(sonuc){
 					if (sonuc=="ok") {
+
+
+					$("#popupdeneme").dialog({
+						modal:true,
+						buttons: {
+							Ok: function(){
+								$(this).dialog("close");
+							},
+						}
+
+					})
+
 						$("#tamam").show();
 						setTimeout(function() { $('#tamam').hide(500); }, 2000);
 						setTimeout(function(){$('input[name]').val('');},2000);
@@ -39,8 +55,14 @@
 
 
 	</script>
+
 </head>
 <body>
+<div style="display: none;" id="popupdeneme"><p>Kayıt Veritabanına başarılı bir şekilde işlendi...</p>
+
+
+
+</div>
 	<div id="deneme"> <h4 style="text-align: center;">Soru Cevap Şeysi</h4>
 		<table class="table table-striped">
 		<form action="kayit.php" method="POST" onsubmit="return false">
