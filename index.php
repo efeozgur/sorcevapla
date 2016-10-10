@@ -63,7 +63,7 @@
 
 
 </div>
-	<div id="deneme"> <h4 style="text-align: center;">Soru Cevap Şeysi</h4>
+	<div id="deneme"> <h4 style="text-align: center;">Soru Cevap Motoru</h4>
 		<table class="table table-striped">
 		<form action="kayit.php" method="POST" onsubmit="return false">
 			<tr>
