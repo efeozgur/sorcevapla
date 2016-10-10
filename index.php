@@ -30,7 +30,7 @@
 					$("#popupdeneme").dialog({
 						modal:true,
 						buttons: {
-							Ok: function(){
+							Tamam: function(){
 								$(this).dialog("close");
 							},
 						}
