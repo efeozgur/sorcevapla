@@ -51,15 +51,15 @@ div p a:hover{
 }
 
 #deneme {
-	width: 600px;
-	height: 500px; 
+	width: 800px;
+	height: 800px; 
 	position: absolute;
 	background: #fff; 
 	margin: auto; 
 	top: 50%;
 	left: 50%;
-	margin-left: -300px; 
-	margin-top: -250px; 
+	margin-left: -400px; 
+	margin-top: -400px; 
 	padding: 10px; 
 	border-radius: 5px;
 
@@ -70,3 +70,26 @@ box-shadow: 0px 7px 24px 0px rgba(0,0,0,0.75);
 
 
 }
+#cerceve {
+	margin-bottom: 10px; background: #eee; padding: 10px
+}
+.ici ul {list-style: none;}
+.ici ul li{float:left; font-size: 10px}
+.scroll {
+   width: 200px;
+   height: 400px;
+   background: yellow;
+   overflow: scroll;
+   border:1px solid #ddd;
+}
+.scroll span {font-size: 10px}
+.scroll ul {list-style: none; padding: 10px}
+.scroll ul li {
+	
+	padding: 4px;
+
+
+	margin:4px;
+}
+
+.temizle{clear: both;}
