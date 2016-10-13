@@ -34,7 +34,7 @@
 
 		</ul>
 	</div>
-	<div id="ortataraf" class="col-md-9">
+	<div id="ortataraf" name="ac" class="col-md-9">
 		<iframe name="pen" src="gelbakim.php" frameborder="0" width="1200" height="800"></iframe>
 	</div>
 	<div class="col-md-1" id="sagtaraf"></div>
